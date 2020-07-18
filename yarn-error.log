@@ -1,0 +1,33 @@
+Arguments: 
+  /home/jpjuansito/.config/nvm/versions/node/v14.4.0/bin/node /usr/share/yarn/bin/yarn.js add readline-sync nodemon
+
+PATH: 
+  /home/jpjuansito/bin:/home/jpjuansito/.config/nvm/versions/node/v14.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "replGame",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:juanjpayan/myREPLgame.git",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
